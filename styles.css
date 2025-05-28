@@ -1,3 +1,7 @@
+:root {
+    --font-freckle-face: 'Freckle Face', cursive;
+}
+
 body {
     font-family: 'Segoe UI', sans-serif;
     background: #fff8f0 url('https://www.transparenttextures.com/patterns/linen.png');
@@ -12,10 +16,17 @@ body {
     padding: 20px;
     border-bottom: 5px dashed #d2691e;
   }
+
+  .freckle-face-regular {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
   
   h1 {
     margin: 0;
     font-size: 2.5em;
+    font-family: var(--font-freckle-face);
   }
   
   section {

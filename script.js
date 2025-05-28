@@ -86,14 +86,21 @@ const presentes = [
   ];
   
   const ul = document.getElementById("lista-presentes");
-  
-  presentes.forEach(presente => {
+
+    presentes.forEach(presente => {
     const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = presente.link;
-    a.target = "_blank";
-    a.textContent = presente.nome;
-    li.appendChild(a);
+    
+    if (presente.link) {
+        const a = document.createElement("a");
+        a.href = presente.link;
+        a.target = "_blank";
+        a.textContent = presente.nome;
+        li.appendChild(a);
+    } else {
+        const span = document.createElement("span");
+        span.textContent = presente.nome;
+        li.appendChild(span);
+    }
+    
     ul.appendChild(li);
-  });
-  
+});
