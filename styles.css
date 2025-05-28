@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff8f0 url('https://www.transparenttextures.com/patterns/linen.png');
+    color: #4e3629;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #f7d9a0;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px dashed #d2691e;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    background: #fff;
+    border-left: 5px solid #a98467;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  a {
+    color: #7f5539;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .paleta {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .paleta div {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  footer {
+    text-align: center;
+    background: #f7d9a0;
+    padding: 10px;
+    border-top: 5px dashed #d2691e;
+  }
+  
