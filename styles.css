@@ -1,5 +1,14 @@
 :root {
     --font-freckle-face: 'Freckle Face', cursive;
+    
+  /* 60331c
+61331b
+a3130f
+c85103
+ed9158
+f7d69c
+f3dcb4
+fcb410 */
 }
 
 body {
@@ -8,13 +17,12 @@ body {
     color: #4e3629;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   
   header {
     background: #f7d9a0;
-    text-align: center;
     padding: 20px;
-    border-bottom: 5px dashed #d2691e;
   }
 
   .freckle-face-regular {
@@ -32,13 +40,40 @@ body {
   section {
     padding: 20px;
   }
+
+  .intro {
+    padding: 2em;
+    color: #f3dcb4;
+    background-color: #60331c;
+    border-top: 5px dashed #d2691e;
+    border-bottom: 5px dashed #d2691e;
+  }
+
+  .presentes {
+    padding: 2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    background: #f7d9a0;
+  }
+
+  .lista-presentes {
+    padding: 1em;
+    border-radius: 10px;
+  }
   
   ul {
     list-style: none;
-    padding: 0;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   li {
+    width: 20em;
     margin: 10px 0;
     background: #fff;
     border-left: 5px solid #a98467;
@@ -58,8 +93,9 @@ body {
   
   .paleta {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 2em;
   }
   
   .paleta div {
@@ -70,6 +106,9 @@ body {
   }
   
   footer {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     text-align: center;
     background: #f7d9a0;
     padding: 10px;
