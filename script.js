@@ -4,7 +4,7 @@ const presentes = [
   { nome: "Açucareiro", jaTem: false },
   { nome: "Afiador de facas", jaTem: false },
   { nome: "Airfryer", jaTem: true },
-  { nome: "Aspirador de pó vertical", link: "https://www.casasbahia.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-220v/p/15003643", jaTem: false },
+  { nome: "Aspirador de pó vertical", link: "https://www.casasbahia.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-220v/p/15003643", jaTem: true },
   { nome: "Avental (P)", jaTem: false },
   { nome: "Baldes (P, M, G)", jaTem: false },
   { nome: "Balança", jaTem: false },
